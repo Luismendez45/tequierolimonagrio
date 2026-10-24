@@ -193,8 +193,27 @@ button.enviar:hover {
     <h2>Panel principal</h2>
     <p>Bienvenido al sistema. Administra productos, clientes y ventas.</p>
 
-    
+    <div class="resumen">
+        <div><span>Ventas registradas</span><b id="totalVentas">3</b></div>
+        <div><span>Productos</span><b id="totalProductos">4</b></div>
+        <div><span>Clientes</span><b id="totalClientes">3</b></div>
+        <div><span>Ingresos registrados</span><b id="totalIngresos">C$ 5,650</b></div>
+    </div>
 
+    <h3>Últimas ventas</h3>
+    <table>
+        <thead>
+            <tr>
+                <th>Factura</th>
+                <th>Cliente</th>
+                <th>Producto</th>
+                <th>Total</th>
+                <th>Estado</th>
+            </tr>
+        </thead>
+        <tbody id="tablaResumen"></tbody>
+    </table>
+</section>
 
 <!-- PRODUCTOS -->
 <section id="productos" class="seccion">
